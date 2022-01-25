@@ -1,3 +1,10 @@
+#################################################################################
+#                                                                               #
+#                       Template for C projects                                 #
+#                                                                               #
+# Automatically made by github.                                                 #                              #
+#################################################################################
+
 # Prerequisites
 *.d
 
@@ -50,3 +57,39 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+#################################################################################
+#                                                                               #
+#                       Template for MikroC projects                            #
+#                                                                               #
+# Based on the following github project :                                        #
+# https://github.com/toptal/gitignore/blob/master/templates/MikroC.gitignore    #                              #
+#################################################################################
+
+
+# Backup
+*.pdsbak
+
+# Debug
+Debug
+
+# Generated files
+*.workspace
+*.log
+*.bmk
+*.brk
+*.cfg
+*.dbg
+*.dct
+*.dlt
+*.hex
+*.lst
+*.dic
+*_callertable.txt
+*.user.dic
+*.asm
+*.c.ini
+*.h.ini
+*.cp
+*.mcl

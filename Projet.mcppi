@@ -6,7 +6,7 @@ Value=0
 [BUILD_TYPE]
 Value=0
 [ACTIVE_TAB]
-Value=7_segment.c
+Value=Capteur_ultrason.c
 [USE_EEPROM]
 Value=0
 [USE_HEAP]
@@ -18,7 +18,9 @@ Value=
 [FILES]
 File0=Projet.c
 File1=7_segment.c
-Count=2
+File2=Uart.c
+File3=Capteur_ultrason.c
+Count=4
 [BINARIES]
 Count=0
 [IMAGES]
@@ -27,7 +29,10 @@ ActiveImageIndex=-1
 [OPENED_FILES]
 File0=7_segment.c
 File1=Projet.c
-Count=2
+File2=7_segment.h
+File3=Capteur_ultrason.c
+File4=Capteur_ultrason.h
+Count=5
 [EEPROM]
 Count=0
 [ACTIVE_COMMENTS_FILES]
@@ -41,7 +46,9 @@ Count=0
 [HEADERS]
 File0=7_segment.h
 File1=projet.h
-Count=2
+File2=Uart.h
+File3=Capteur_ultrason.h
+Count=4
 [PLDS]
 Count=0
 [Useses]
@@ -52,7 +59,7 @@ IVT_BASE=00000008
 [EXPANDED_NODES]
 0=Projet.mcppi
 1=Sources
-4=Header Files
+6=Header Files
 Count=3
 [LIB_EXPANDED_NODES]
 Count=1
